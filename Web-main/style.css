@@ -1,3 +1,9 @@
+.grid-container {
+  display: grid;  
+  grid-template-rows:  5em 200px 200px;
+  grid-template-columns: 200px 5em 50%;
+}
+
 .niz{
 font-align:left;
 }
@@ -47,7 +53,7 @@ line-height:20px
 }
 
 .put[type=text]{
-   width:200px;
+   max-width:200px;
 background-color: #navy;
     color: #ffe;
   color:blue;
